@@ -1,0 +1,213 @@
+html,body{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    background-attachment: fixed;
+    /*background-image: url("../img/blood-3.png");*/
+    background-size: contain;
+}
+nav{
+  width: inherit;
+  margin: auto;
+  border-bottom: 0px !important;
+}
+#fb-link{
+  padding: 7px;
+}
+#fb-container{
+  position: absolute;
+  right: 0px;
+}
+#top-content{
+  padding: 0;
+  padding-top: 50px;
+  width: auto;
+}
+#page-container{
+  padding: 0;
+  margin-bottom: 30px;
+}
+#below-image{
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  padding: 0px;
+}
+#navbar-container{
+  margin: 0px;
+}
+#button-container{
+  padding-top: 50px;
+  height: 50px;
+}
+#contact{
+  padding: 50px;
+}
+#preImage{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  left: 0px;
+  background-image: url("../img/logo.png");
+  background-color: rgb(255, 255, 255);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 999999;
+  padding: 0px;
+  cursor: pointer;
+}
+#carousel-container{
+  margin-top: 50px;
+}
+.carousel img {
+    min-width: 100%;
+}
+.content-card{
+  margin-top: 20px;
+  background-color: rgb(62, 62, 62);
+  height: auto;
+  width: 100%;
+  background-image: url("../img/ankh-3a.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.jumbotron{
+  background-image: url("../img/jumbo.jpg");
+  background-size: cover;
+  width: inherit;
+  height: 600px;
+  padding-left: 0;
+  margin: auto;
+  border-radius: 0px !important;
+}
+.btn-lg{
+  font-size: 36px;
+}
+.card{
+  box-shadow: 0 6px 9px 0 rgba(116, 113, 113, 0.8);
+  transition: 0.3s;
+}
+.card:hover {
+    box-shadow: 0 12px 22px 0 rgba(116, 113, 113, 0.94);
+}
+.text-color{
+  color: rgb(255, 255, 255);
+}
+.text-styler{
+  font-size: 18px;
+  padding-top: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.register-styler{
+  font-size: 18px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.text-container{
+  padding-top: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 80px;
+}
+.text-header-font{
+  font-family: LinBold;
+}
+.text-font{
+  font-family: Lin;
+}
+.navbar-brand{
+  padding-top: 0px;
+  padding-right: 0px;
+}
+.btn.btn-lg:hover{
+  background-color: #cc0808 !important;
+  border-color: #cc0808 !important;
+  color: #ffffff;
+}
+.btn.btn-lg{
+  color: #4f4a4a;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a{
+	color: #ffffff !important;
+	background-color: #cc0808 !important;
+}
+.modal-content{
+  background-color: #3E3E3E;
+}
+.modal-body{
+  padding-top: 30px !important;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.glyphicon {
+  top: 0px !important;
+}
+.vresize{
+  resize: vertical;
+}
+.glyphicon-chevron-right, .glyphicon-chevron-left{
+  top: 50% !important;
+}
+.alert{
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.togglehid{
+  
+}
+label.error{
+  color: #fff;
+  font-family: LinBold;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+@font-face {
+    font-family: LinBold;
+    src: url("../fonts/LinLibertine_RB.ttf");
+}
+@font-face {
+  font-family: Lin;
+  src: url("../fonts/LinLibertine_R.ttf");
+}
+
+/* Slide Animation */
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    /* The duration of the animation */
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible;
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
