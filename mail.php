@@ -12,9 +12,9 @@
     $mail->Username = 'administrator@thesanguinecouncil.com';
     $mail->Password = 'tscAdmin-124578';
     $mail->setFrom($mail->Username, 'The Sanguine Council');
-    $mail->addAddress("kubilaykocdemir@gmail.com","Kubilay Koçdemir");
-    $mail->addAddress("eceyilmazh@gmail.com","Ece Yılmaz");
-    $mail->addAddress("mmertkarakoc@gmail.com","Mustafa Mert Karakoç");
+    $mail->addAddress("","");
+    $mail->addAddress("","");
+    $mail->addAddress("","");
     $mail->isHTML(true);
     $mail->CharSet = 'UTF-8';
     $mail->Subject = $userSub;
